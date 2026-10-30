@@ -1,0 +1,69 @@
+/* Name (CHANGE THE STYLE) */
+
+.OwnProfilePreviewCard {
+    border-radius: 0 !important;
+    cursor: pointer;
+    background-color: #00000042 !important;
+    border: 0.1rem solid !important;
+    border-color: #bbbbbbe6 !important;
+    background-image: linear-gradient(23deg, #000000 0%, #b8b8b8 100%) !important;
+    box-shadow: 0 0 10px #00000085, inset 0 0 15px #000000 !important;
+}
+
+/* Customizable Name Card - Warning Window Background */
+
+.OwnProfilePreviewLoginWarning {
+    background-color: #ffb9144d !important;
+    border-top: .2rem solid #f2f2f233 !important;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    width: 95% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: 1.9rem !important;
+    margin: .0rem 0.5rem 0.4rem 0.5rem !important;
+    border-radius: 0rem !important;
+}
+
+.OwnProfilePreviewLoginWarningIcon {
+    color: #fcd373 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-shrink: 0 !important;
+}
+
+.OwnProfilePreviewLoginWarningText {
+    display: block !important;
+    color: #fff7d3 !important;
+    flex: 1 1 auto !important;
+    font-size: 1rem !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    min-width: 0 !important;
+    white-space: normal !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.ProfilePreview {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    min-width: 0 !important;
+    background-color: #00000000 !important;
+}
+
+.OwnProfilePreview {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 18rem !important;
+}
+
+.OwnProfilePreviewSettings { /* Profile Preview Settings Button */
+    color: #fff !important;
+}
